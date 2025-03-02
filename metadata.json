@@ -1,0 +1,17 @@
+{
+    "name": "4V4 Avatar #1",
+    "description": "A unique 3D avatar for the metaverse",
+    "image": "ipfs://QmSampleImageHash",
+    "external_url": "https://4v4platform.com/avatar/1",
+    "attributes": ["style: futuristic", "rarity: Rare"],
+    "animation_url": "ipfs://QmSampleAnimationHash",
+    "interoperability_formats": ["glb", "fbx"],
+    "customization_data": {"color": "blue", "accessory": "hat"},
+    "rarity": "Rare",
+    "creator": "0x123...",
+    "soulbound": true,
+    "timestamp": 1709344080,
+    "edition": "1 of 100",
+    "royalties": "10%",
+    "properties": {"polygonCount": 5000}
+  }
