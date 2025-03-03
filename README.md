@@ -1,4 +1,3 @@
-```markdown
 # 4V4 - Avatar Creation & Ecosystem
 
 ## Introduction
