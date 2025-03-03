@@ -1,11 +1,11 @@
 const { ethers } = require("hardhat");
 
 async function main() {
-  const My4V4 = await ethers.getContractFactory("my4v4");
-  const my4V4 = await My4V4.deploy();
-  await my4V4.deployed();
+  const AvatarMinter = await ethers.getContractFactory("AvatarMinter");
+  const myAvatarMinter = await AvatarMinter.deploy();
+  await myAvatarMinter.deployed();
 
-  console.log("MyNFT deployed to:", my4V4.address);
+  console.log("Avatar deployed to:", myAvatarMinter.address);
 }
 
 main()
