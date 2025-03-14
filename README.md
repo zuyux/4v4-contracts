@@ -196,11 +196,4 @@ await subscription.subscribe(
 ---
 
 ## License
-This project is OPEN SOURCE
-
----
-
-## Acknowledgments
-- **OpenZeppelin** for contract standards  
-- **Scroll zkEVM** for L2 scaling  
-- **Three.js & Babylon.js** for 3D rendering  
+This project is OPEN SOURCE SOFTWARE
