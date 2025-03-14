@@ -1,16 +1,18 @@
-const { ethers } = require("hardhat");
+// scripts/deploy.js
+const hre = require("hardhat");
 
 async function main() {
-  const AvatarMinter = await ethers.getContractFactory("AvatarMinter");
-  const myAvatarMinter = await AvatarMinter.deploy();
-  await myAvatarMinter.deployed();
+  const AvatarMinter = await hre.ethers.getContractFactory("AvatarMinter");
+  const avatarMinter = await AvatarMinter.deploy();
 
-  console.log("Avatar deployed to:", myAvatarMinter.address);
+  await avatarMinter.waitForDeployment();
+
+  console.log("AvatarMinter deployed to:", await avatarMinter.getAddress());
 }
 
-main()
-  .then(() => process.exit(0))
-  .catch(error => {
-    console.error(error);
-    process.exit(1);
-  });
+// We recommend this pattern to be able to use async/await everywhere
+// and properly handle errors.
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});
