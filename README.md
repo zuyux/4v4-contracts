@@ -1,7 +1,7 @@
 # 4V4 - Avatar Creation & Ecosystem
 
 ## Introduction
-**4V4** is a decentralized application (dApp) designed for creating, customizing, and exporting 3D avatars as NFTs. This repository focuses on the **smart contract suite**, which is deployed on Scroll zkEVM for fast, low-cost, and scalable transactions. While the project has a Next.js-powered web interface (with Three.js and Babylon.js) for real-time 3D rendering, **this README is dedicated to the contracts** that manage avatar minting, accessories, marketplace trading, and subscription/monetization.
+**4V4** is a decentralized application (dApp) designed for creating, customizing, and exporting 3D avatars as NFTs. This repository focuses on the **smart contract suite**, which is deployed on Scroll zkEVM for fast, low-cost, and scalable transactions. While the project has a Next.js-powered web interface Babylon.js for real-time 3D rendering, **this README is dedicated to the contracts** that manage avatar minting, accessories, marketplace trading, and subscription/monetization.
 
 ---
 
