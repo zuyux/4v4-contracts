@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 contract AvatarMinter is ERC721URIStorage, Ownable, ReentrancyGuard {
     uint256 private _tokenIds;
     uint256 public constant MAX_SUPPLY = 10_000;
-    uint256 public mintPrice = 0.01 ether;
+    uint256 public mintPrice = 0.0001 ether;
 
     event AvatarMinted(
         address indexed recipient,

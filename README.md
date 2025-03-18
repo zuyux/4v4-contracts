@@ -12,7 +12,8 @@
 - **Real-Time Rendering:** Three.js and Babylon.js for high-quality 3D visuals.
 - **NFT Export:** Mint avatars as NFTs directly from the interface.
 
-*(Note: This repo only contains the contracts. The web interface is in a separate repository.)*
+Note: This repo only contains the contracts. The web interface is in a separate repository here: [github.com/zuyux/4v4-www](https://github.com/zuyux/4v4-www)
+
 
 ### Smart Contracts
 1. **AvatarMinter (ERC-721):**
